@@ -9,6 +9,7 @@
  * @author Stomp
  */
 import java.util.*;
+import java.io.*;
 import static javax.lang.model.type.TypeKind.INT;
 
 public class JavaTest {
@@ -33,6 +34,9 @@ public class JavaTest {
         
         Address address = new Address(id, fname, lname, street, age, gender);
         System.out.print(address.toString());
+        
+        
+        
         
     }
     
