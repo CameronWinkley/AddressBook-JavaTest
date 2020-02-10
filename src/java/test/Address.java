@@ -8,8 +8,10 @@
  *
  * @author Stomp
  */
+
+import java.util.ArrayList;
 public class Address {
-    
+    public ArrayList<Address> addresslist = new ArrayList<>();
     private int id;
     private String fName;
     private String lName;
