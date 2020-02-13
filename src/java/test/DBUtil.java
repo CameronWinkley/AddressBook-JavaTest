@@ -9,6 +9,8 @@ package java.test;
  *
  * @author Stomp
  */
+
 public class DBUtil {
     
 }
+DriverManager.registerDriver(new Oracle.jdbc.driver.OracleDriver());
